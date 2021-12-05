@@ -11,17 +11,34 @@
     "cdk": "cdk"
   },
   "devDependencies": {
-    "@aws-cdk/assertions": "1.133.0",
+    "@aws-cdk/assertions": "1.134.0",
+    "@aws-cdk/aws-apigatewayv2": "^1.134.0",
+    "@aws-cdk/aws-apigatewayv2-authorizers": "^1.134.0",
+    "@aws-cdk/aws-apigatewayv2-integrations": "^1.134.0",
+    "@aws-cdk/aws-dynamodb": "^1.134.0",
+    "@aws-cdk/aws-events": "^1.134.0",
+    "@aws-cdk/aws-iam": "^1.134.0",
+    "@aws-cdk/aws-lambda-nodejs": "^1.134.0",
+    "@types/aws-lambda": "^8.10.85",
     "@types/jest": "^26.0.10",
     "@types/node": "10.17.27",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "aws-cdk": "1.134.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
     "jest": "^26.4.2",
+    "prettier": "^2.5.0",
     "ts-jest": "^26.2.0",
-    "aws-cdk": "1.133.0",
     "ts-node": "^9.0.0",
     "typescript": "~3.9.7"
   },
   "dependencies": {
-    "@aws-cdk/core": "1.133.0",
+    "@aws-cdk/core": "1.134.0",
+    "aws-sdk": "^2.1038.0",
     "source-map-support": "^0.5.16"
   }
 }
